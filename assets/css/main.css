@@ -72,6 +72,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+#resume-span {
+	color: black;
+	font-size: 25px;
+}
+
+#resume-a {
+	color: black;
+	font-size: 25px;
+}
+
+
 /* Row */
 
 	.row {
