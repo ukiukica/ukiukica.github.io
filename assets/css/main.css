@@ -82,7 +82,6 @@ input, select, textarea {
 	font-size: 25px;
 }
 
-
 /* Row */
 
 	.row {
@@ -817,6 +816,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			#headshot {
+				padding-bottom: 40px;
+			}
 
 			.row {
 				display: flex;
@@ -2026,7 +2028,7 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						background: url("images/overlay.png");
+						/* background: url("images/overlay.png"); */
 						width: 100%;
 						height: 100%;
 						z-index: 1;
@@ -2043,7 +2045,7 @@ input, select, textarea {
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
-						object-fit: cover;
+						object-fit: contain;
 						-moz-object-position: center;
 						-webkit-object-position: center;
 						-ms-object-position: center;
